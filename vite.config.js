@@ -11,6 +11,7 @@ import MarkdownItPrism from 'markdown-it-prism'
 import MarkdownItTable from 'markdown-it-multimd-table'
 
 export default defineConfig({
+  base: '/',
   plugins: [
     vue({ include: [/\.vue$/, /\.md$/] }),
     Markdown({
